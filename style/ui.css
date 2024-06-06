@@ -1,0 +1,13 @@
+.ui{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 16px;
+    padding-top: 30px;
+    margin-left: 760px;
+    margin-right: 760px;
+    margin-top: 250px;
+    box-shadow: 3px 3px 10px rgba(132, 132, 132,0.3);
+    
+}

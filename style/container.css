@@ -1,0 +1,80 @@
+.container{
+   display: grid;
+   grid-template-rows: 1fr 1fr 1fr 1fr ;
+   width: 350px;
+ 
+   padding-top: 20px;
+   
+   
+}
+.text{
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.first-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 90px;
+    
+}
+
+.js-score,.js-result,.js-moves{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    align-items: center;
+    font-weight: bold;
+}
+.move-change{
+    height: 90px;
+}
+.computerMove-picture{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    align-items: center;
+    
+    
+}
+
+
+.reset-button{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    align-items: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+   
+}
+.reset-buttoninfo{
+    padding: 10px;
+    background-color: rgb(133,166,185);
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    
+}
+button{
+
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+.move-icon{
+    height: 80px;
+}
+.computerMove-icon{
+    height: 80px;
+
+}
+button:hover{
+    opacity: 0.8;
+}
+button:active{
+    opacity: 0.4;
+}

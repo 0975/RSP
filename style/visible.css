@@ -1,0 +1,6 @@
+.visible{
+    
+    display: flex;
+    justify-content: center;
+    align-items: top;
+}
